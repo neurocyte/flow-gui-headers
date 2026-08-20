@@ -52,6 +52,7 @@ pub const fontconfig_stub_symbols = [_][]const u8{
     "FcCharSetAddChar",
     "FcCharSetCreate",
     "FcCharSetDestroy",
+    "FcCharSetHasChar",
     "FcConfigDestroy",
     "FcConfigSubstitute",
     "FcDefaultSubstitute",
@@ -71,6 +72,7 @@ pub const fontconfig_stub_symbols = [_][]const u8{
     "FcPatternCreate",
     "FcPatternDestroy",
     "FcPatternGetBool",
+    "FcPatternGetCharSet",
     "FcPatternGetInteger",
     "FcPatternGetString",
 };
