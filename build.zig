@@ -161,6 +161,7 @@ pub const gl_stub_symbols = [_][]const u8{
     "glPixelStorei",
     "glPolygonOffset",
     "glReadBuffer",
+    "glReadPixels",
     "glRenderbufferStorage",
     "glRenderbufferStorageMultisample",
     "glSamplerParameterf",
