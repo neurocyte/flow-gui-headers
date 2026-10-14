@@ -154,6 +154,7 @@ pub const gl_stub_symbols = [_][]const u8{
     "glGetProgramiv",
     "glGetShaderInfoLog",
     "glGetShaderiv",
+    "glGetString",
     "glGetStringi",
     "glGetUniformLocation",
     "glLinkProgram",
